@@ -11,9 +11,10 @@
     <div>
         <label>Input:</label>
         <input type="text" name="firstInput" id="firstInput"/>
+        <script src="style.css"></script>
     </div>
     <div>
-        <select name="operator" id="operator">
+        <select name="choice" id="choice">
             <option value="1">If input is a first name: Make the first character in a name uppercase, and the rest lowercase</option>
             <option value="2">If input is a full name: Find the first name</option>
             <option value="3">If input is a full name: Find the length of the first name</option>
@@ -24,9 +25,11 @@
             <option value="8">With any input: Make a character uppercase, if it follows a space or a hyphen</option>
         </select>
     </div>
-    <div>
+    <div id="div">
         <label>Output:</label>
-        <output id="output">Output goes here</output>
+        <ul id="output">
+            <li></li>
+        </ul>
     </div>
     <button id="gernerateOutput">Generate Output</button>
     <script src="script.js"></script>
